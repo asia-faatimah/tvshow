@@ -1,0 +1,151 @@
+body{
+    font-family: 'Commissioner', sans-serif;
+    line-height: 1.2em;
+}
+#wrapper{
+    max-width: 1200px;
+    margin:0 auto;
+    
+
+}
+header{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0px, rgba(228,90,2,0.5639097744360902) 540px, rgba(228,90,2,0.2962406015037594) 600px),
+     url("../assets/lovecraftcountry2resized.jpg") right top no-repeat, 
+     black;
+     padding: 3em;
+
+}
+header button{
+    background-color:#CD1814;
+    border: none;
+    border-radius:6.5px;
+    color:white;
+    background-image: url("../assets/play_arrow-24px.gif");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 5px;
+    padding-left: 35px;
+    text-transform: uppercase;
+    
+}
+
+h1 img{
+    max-width:100%;
+}
+p{
+    margin-bottom: 1em;
+}
+
+
+nav{
+    background:rgb(8, 8, 8);
+    padding: 10px;
+    margin-bottom: 2em;
+    text-decoration: none;
+}
+nav li{
+    display:inline;
+    border-right:solid #ffff 1px ;
+    padding:0 1.5em;
+    text-decoration: none;
+}
+nav li:last-child{
+    border:none;
+    text-decoration: none;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+}
+nav a:hover{
+    color:#CD1814;
+    text-decoration: none;
+}
+nav :visited{
+    text-decoration:none ;
+}
+.lead{
+    color:white;
+    width:300px;
+}
+main{
+    margin-bottom: 3em;
+    overflow:auto;
+    
+}
+h2{
+    font-size:1.5em ;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+h3{
+    font-weight: bold;
+}
+.tv-ma{
+    border: solid 1px black;
+    padding:0 3px;
+    font-size: smaller;
+}
+
+  
+.flex-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:space-around;
+  }
+
+.flex-item{
+    width:200px;
+    border:none;
+    padding:5px;
+    border-radius: 10px;
+    margin:0.5em;
+    flex: 1 0 auto;
+    align-items: flex-start;
+    
+
+  }
+.card1{
+    background-image: url("..assets/");
+}
+.card2{
+    background-image: url("..assets/");
+
+}
+.card3{
+    background-image: url("..assets/");
+
+}
+.card4{
+    background-image: url("..assets/");
+
+}
+.card5{
+    background-image: url("..assets/");
+
+}
+.card7{
+    background-image: url("..assets/");
+
+}
+.card8{
+    background-image: url("..assets/");
+
+}
+/*.lead{
+    border:none;
+    flex: 2 0 0;
+  }*/
+
+.img-responsive{
+    width:100%;
+  }
+
+.lead p{
+    font-size: larger;
+  }
+
+
+footer{
+    clear:both;
+}
